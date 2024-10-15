@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(245, 245, 245);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+}
+
+.leftContainer {
+  color: black;
+  text-decoration: none;
+  height: 100vh;
+  width: 30%;
+  justify-content: center;
+}
+
+.logoContainer {
+  height: 50px;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.logo {
+  height: 100%;
+  width: 50px;
+}
+
+.hautGauche {
+  color: black;
+  text-decoration: none;
+  background-color: #fff;
+  height: auto;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  border-radius: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.btnAcc {
+  color: black;
+  object-fit: cover;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 40px;
+  width: 180px;
+  border-radius: 15px;
+  background: #fff;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAcc a {
+  color: black;
+  display: flex;
+  width: 100%;
+}
+
+.btnAcc svg {
+  margin-right: 8px;
+}
+
+.centerContainer {
+  height: 100vh;
+  width: 40%;
+  margin: 0;
+}
+
+.txtCenter {
+  margin-top: 150px;
+  position: absolute;
+  height: 86%;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.txtContainer h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.form {
+  text-align: center;
+  height: 100vh;
+  margin-top:50px;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #dcdcdc;
+  background-color: #fff;
+  margin: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="Prénom"],
+input[type="Pseudo"],
+input[type="email"],
+input[type="password"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.submit {
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  transition: border 0.4s ease;
+  background-color: #fff;
+}
+
+.submit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(154deg, #0008ff29 -225.53%, #fff 130.94%);
+  border-radius: 25px;
+  z-index: -1;
+  transition: width 0.5s ease, height 0.5s ease;
+  transform: scale(0);
+}
+
+.submit:hover::before {
+  transform: scale(
+    3
+  );
+}
+
+.rightContainer {
+  height: 100vh;
+  width: 30%;
+  margin: 0;
+  justify-content: center;
+}
+.oui {
+  margin-top: 20px;
+}

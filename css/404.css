@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(245, 245, 245);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;  
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+}
+
+.leftContainer {
+  color: black;
+  text-decoration: none;
+  height: 100vh;
+  width: 30%;
+  justify-content: center;
+}
+
+.logoContainer {
+  height: 50px;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.logo {
+  height: 100%;
+  width: 50px;
+}
+
+.hautGauche {
+  color: black;
+  text-decoration: none;
+  background-color: #fff;
+  height: auto;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  border-radius: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column; 
+  align-content: flex-start;
+}
+
+.btnAcc {
+  color: black;
+  object-fit: cover;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 40px;
+  width: 180px;
+  border-radius: 15px;
+  background: #fff;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAcc a {
+  color: black;
+  display: flex;
+  width: 100%;
+}
+
+.btnAcc svg {
+  margin-right: 8px;
+}
+
+
+.txtCenter {
+  margin-top: 150px;
+  position: absolute;
+  height: 86%;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 25px 25px 0px 0px;
+  justify-content: center;
+}
+.txtContainer {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.txtContainer h1 {
+  padding-top: 5px;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.form {
+  
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 25px 25px 0px 0px;
+  display: none;
+}
+
+
+.rightContainer {
+  height: 100vh;
+  width: 30%;
+  margin: 0;
+  justify-content: center;
+}
+
+button {
+  color: #090909;
+  background-color: #fff;
+  border: none;
+}
+
+canvas {
+    
+    border: 1px solid #555; 
+    box-shadow: 0 0 10px #bbb; 
+}
+
+.content {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content p {
+  font-size: 25px;
+  font-weight: bold;
+}
